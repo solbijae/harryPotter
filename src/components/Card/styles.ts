@@ -2,9 +2,12 @@ import styled, { css } from "styled-components";
 
 export const CardWrapper = styled.div`
   width: 100%;
+  background-color: #000;
+  padding: 10px; 
 `;
 
 export const CardBlock = styled.div`
+    border: 1px solid red;
     display: flex;
     flex-wrap: wrap;
     gap: 1em;
