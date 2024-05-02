@@ -2,13 +2,14 @@ import {
     MainWrapper
 } from './styles';
 
-import backgrounImage from '../../assets/train-close.jpg'
+import backgrounImage from '../../assets/images/train-close.jpg';
+import Navbar from '../Navbar';
 
 const Landing = () => {
     return(
         <>
             <MainWrapper imageUrl={backgrounImage}>
-                landing
+                <Navbar></Navbar>
             </MainWrapper>
         </>
     )
