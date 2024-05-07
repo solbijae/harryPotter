@@ -15,5 +15,7 @@ export const NavbarList = styled.ul`
 `;
 
 export const ListItem = styled.li`
-    
+    &:hover {
+        text-decoration: underline;
+    }
 `;
